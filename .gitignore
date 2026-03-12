@@ -1,0 +1,88 @@
+# ==============================================================================
+# PROJECT: Satbara/7-12 Automation System
+# ==============================================================================
+
+# 📦 DEPENDENCIES & PACKAGES
+# ------------------------------------------------------------------------------
+node_modules/
+bun.lockb
+package-lock.json
+yarn.lock
+
+# 🐍 PYTHON & VIRTUAL ENVIRONMENTS
+# ------------------------------------------------------------------------------
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔐 ENVIRONMENT & SECRETS
+# ------------------------------------------------------------------------------
+# Never commit actual credentials!
+.env
+.env.local
+.env.*.local
+
+# Allow the template to be shared
+!.env.example
+
+# 📂 AUTOMATION DATA & OUTPUTS
+# ------------------------------------------------------------------------------
+# Ignores downloaded PDFs and user-specific session data
+8a/downloads/*
+8a/user_data/
+ferfar/downloads/*
+ferfar/user_data/
+downloads/
+uploads/*
+
+# 📸 DEBUGGING & MEDIA
+# ------------------------------------------------------------------------------
+# Screenshots from failed Playwright/Selenium jobs
+*.png
+*.jpg
+*.jpeg
+debug_error.png
+login_failure_final.png
+user_data
+
+# 📜 LOGS
+# ------------------------------------------------------------------------------
+*.log
+worker.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🏗️ BUILD & DISTRIBUTABLES
+# ------------------------------------------------------------------------------
+dist/
+build/
+out/
+bin/
+obj/
+*.tsbuildinfo
+
+# 💻 SYSTEM & IDE SPECIFIC
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+# Editors (VS Code, JetBrains)
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# 🛠️ MISCELLANEOUS
+# ------------------------------------------------------------------------------
+*.tmp
+*.bak
+.cache/
+whatsapp-session/*
+.wwebjs_cache/
+
